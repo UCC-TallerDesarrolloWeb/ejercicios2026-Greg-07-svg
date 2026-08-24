@@ -24,8 +24,8 @@
 -  [X] Tablas II
 -  [X] Tablas III
 -  [X] Tablas VI
--  [ ] Comentarios
--  [ ] Formulario
+-  [X] Comentarios
+-  [X] Formulario
 -  [ ] Accesibilidad
 -  [ ] Multimedia
 
