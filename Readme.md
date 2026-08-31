@@ -26,8 +26,8 @@
 -  [X] Tablas VI
 -  [X] Comentarios
 -  [X] Formulario
--  [ ] Accesibilidad
--  [ ] Multimedia
+-  [X] Accesibilidad
+-  [X] Multimedia
 
 ### CSS
 -  [ ] Propiedades tipográficas
