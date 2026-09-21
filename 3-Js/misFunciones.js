@@ -118,7 +118,7 @@ calcularSuma = () => {
 
 
 
-    document.getElementById("totalS").value = sum1 + sum2; 
+    document.getElementById("totalS").innerText = sum1 + sum2; 
 
 } 
 
