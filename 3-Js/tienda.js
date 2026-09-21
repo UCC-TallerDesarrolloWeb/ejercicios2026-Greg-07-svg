@@ -61,3 +61,26 @@ const productos = [
     imagen: "protectores-pie.webp",
   },
 ];
+
+/**
+ * mostrar el modal a partir de la tarjeta
+ * @method mostrarMolar
+ */
+
+mostrarModal = () =>{
+
+  document.getElementById("modal").style.display = 'block';
+
+}
+
+
+/**
+ * mostrar el modal a partir de la tarjeta
+ * @method cerrarMolar
+ */
+
+cerrarModal = () =>{
+
+  document.getElementById("modal").style.display = 'none';
+  
+}
