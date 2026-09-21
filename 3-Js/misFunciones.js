@@ -9,6 +9,8 @@ convertirUnidades = (id, valor) => {
 
     let metros, pulgadas, pies, yardas
 
+    valor = valor.replace(",","."); 
+
     if(isNaN(valor)){
         alert("se ingreso un valor incorrecto donde deberia haber "+id); 
 
@@ -58,10 +60,10 @@ convertirUnidades = (id, valor) => {
 
         pies = valor * 3; 
     }
-    document.getElementById("metro").value = metros;
-    document.getElementById("pulgada").value = pulgadas;
-    document.getElementById("pie").value = pies;
-    document.getElementById("yarda").value = yardas;
+    document.getElementById("metro").value = Math.round(metros * 100) / 100;
+    document.getElementById("pulgada").value = Math.round(pulgadas * 100) / 100;
+    document.getElementById("pie").value = pies.toFixed(2);
+    document.getElementById("yarda").value = yardas.toFixed(2);
 
 }
 
@@ -102,7 +104,63 @@ mostrarOcultar = (valor) => {
 
 }
 
+
+/**
+ * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
+ * @method calcularSuma
+ */
 calcularSuma = () => {
+
+    let sum1, sum2 
+
+    sum1 = Number(document.getElementById("nums1").value)
+    sum2 = Number(document.getElementById("nums2").value)
+
+
+
+    document.getElementById("totalS").value = sum1 + sum2; 
+
+} 
+
+/**
+ * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
+ * @method calcularResta
+ */
+calcularResta = () => {
+
+    let res1, res2 
+
+    sum1 = Number(document.getElementById("nums1").value)
+    sum2 = Number(document.getElementById("nums2").value)
+
+
+
+    document.getElementById("totalS").value = sum1 + sum2; 
+
+} 
+
+/**
+ * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
+ * @method calcularSuma
+ */
+calcularMult = () => {
+
+    let sum1, sum2 
+
+    sum1 = Number(document.getElementById("nums1").value)
+    sum2 = Number(document.getElementById("nums2").value)
+
+
+
+    document.getElementById("totalS").value = sum1 + sum2; 
+
+} 
+
+/**
+ * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
+ * @method calcularSuma
+ */
+calcularDiv = () => {
 
     let sum1, sum2 
 
