@@ -87,3 +87,17 @@ function convertirGR(id){
     document.getElementById("grados").value = grad;
     document.getElementById("radianes").value = rad; 
 }
+
+
+/**
+ * Descripción
+ * @method mostrarOcultar
+ * @param {string} valor - valor del ud del radio button seleccionado
+ */
+mostrarOcultar = (valor) => {
+
+    const displayDiv = (valor === "val_mostrar" ? 'block' : 'none')
+
+    document.getElementById("unDiv").style.display = displayDiv; 
+
+}
