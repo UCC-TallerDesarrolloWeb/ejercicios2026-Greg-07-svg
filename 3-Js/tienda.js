@@ -84,3 +84,22 @@ cerrarModal = () =>{
   document.getElementById("modal").style.display = 'none';
   
 }
+
+/**
+ * mostrar el catalogo de productos en main
+ * @method mostrarCatalogo
+ */
+
+mostrarCatalogo = () =>{
+
+  let contenido = ""; 
+
+  productos.forEach((producto) => {
+    contenido += `<div>
+                    <img src=" https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/${producto.imagen}" alt="cabezal cerrado">
+                    <h3>${producto.nombre}</h3>
+                    <button type="button"  onclick="mostrarModal()">ver detalle de producto</button>
+                 </div>` ;
+  }) ;
+  document.getElementById("catalogo").innerHTML = contenido; 
+}
