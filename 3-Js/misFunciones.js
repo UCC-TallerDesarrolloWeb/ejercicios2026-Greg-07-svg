@@ -1,9 +1,8 @@
 /**
  * Descripción
- * @method Nombre de la función
- * @param Parámetro A
- * @param Parámetro B
- * @return Valor que retorna
+ * @method convertirUnidades
+ * @param {string} id - id del elemento input en html
+ * @param {int} value - valor ingresado en el input
  */
 
 function convertirUnidades(id, valor){
