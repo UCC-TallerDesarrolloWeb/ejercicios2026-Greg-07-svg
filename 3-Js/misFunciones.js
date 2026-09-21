@@ -101,3 +101,16 @@ mostrarOcultar = (valor) => {
     document.getElementById("unDiv").style.display = displayDiv; 
 
 }
+
+calcularSuma = () => {
+
+    let sum1, sum2 
+
+    sum1 = Number(document.getElementById("nums1").value)
+    sum2 = Number(document.getElementById("nums2").value)
+
+
+
+    document.getElementById("totalS").value = sum1 + sum2; 
+
+} 
