@@ -116,59 +116,51 @@ calcularSuma = () => {
     sum1 = Number(document.getElementById("nums1").value)
     sum2 = Number(document.getElementById("nums2").value)
 
-
-
     document.getElementById("totalS").innerText = sum1 + sum2; 
 
 } 
 
 /**
- * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
+ * Descripción calcula la resta entre dos numeros y pone el valor en otro input 
  * @method calcularResta
  */
 calcularResta = () => {
 
     let res1, res2 
 
-    sum1 = Number(document.getElementById("nums1").value)
-    sum2 = Number(document.getElementById("nums2").value)
+    res1 = document.getElementById("numr1").value
+    res2 = document.getElementById("numr2").value
 
-
-
-    document.getElementById("totalS").value = sum1 + sum2; 
+    document.getElementById("totalR").innerText = res1 - res2 ; 
 
 } 
 
 /**
- * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
- * @method calcularSuma
+ * Descripción calcula la multiplicacion entre dos numeros y pone el valor en otro input 
+ * @method calcularMult
  */
 calcularMult = () => {
 
-    let sum1, sum2 
+    let mult1, mult2 
 
-    sum1 = Number(document.getElementById("nums1").value)
-    sum2 = Number(document.getElementById("nums2").value)
+    mult1 = Number(document.getElementById("numm1").value)
+    mult2 = Number(document.getElementById("numm2").value)
 
-
-
-    document.getElementById("totalS").value = sum1 + sum2; 
+    document.getElementById("totalM").innerText = mult1 * mult2; 
 
 } 
 
 /**
- * Descripción calcula la suma entre dos numeros y pone el valor en otro input 
- * @method calcularSuma
+ * Descripción calcula la division entre dos numeros y pone el valor en otro input 
+ * @method calcularDiv
  */
 calcularDiv = () => {
 
-    let sum1, sum2 
+    let div1, div2 
 
-    sum1 = Number(document.getElementById("nums1").value)
-    sum2 = Number(document.getElementById("nums2").value)
+    div1 = Number(document.getElementById("numd1").value)
+    div2 = Number(document.getElementById("numd2").value)
 
-
-
-    document.getElementById("totalS").value = sum1 + sum2; 
+    document.getElementById("totalD").innerText = div1 / div2; 
 
 } 
