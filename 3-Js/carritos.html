@@ -10,7 +10,7 @@
     <script src="tienda.js"></script>
 </head>
 
-<body class="grid-container" onload="mostrarCarrito()">
+<body class="grid-container" onload="mostrarCarrito(); contarProductos()">
 
     <header class="item1">
         Carrito
@@ -19,6 +19,7 @@
     <nav class="item2">
         <a href="productos.html">Catalogo de productos</a>
         <a href="carrito.html">Carrito de compras</a>
+        <div id="cant-prod" >0</div>
     </nav>
 
     <main class="item4" id="carrito">

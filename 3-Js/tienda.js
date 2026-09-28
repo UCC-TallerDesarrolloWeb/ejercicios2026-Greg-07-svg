@@ -97,7 +97,7 @@ mostrarCatalogo = (newList = productos) => {
     contenido += `<div>
                     <img src=" https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/${producto.imagen}" alt="cabezal cerrado">
                     <h3>${producto.nombre}</h3>
-                    <p> ${producto.precio} </p>
+                    <p> ${formatPrice(producto.precio)} </p>
                     <button type="button"  onclick="mostrarModal(${id})">ver detalle de producto</button>
                     <button type = "button" onclick = "agregarAlCarrito(${id})"> agregar al carrito </button>
                  </div>`;
@@ -127,6 +127,8 @@ agregarAlCarrito = (num) => {
   console.log(carritoList);
 
   localStorage.setItem("carrito", JSON.stringify(carritoList));
+
+  contarProductos();
 };
 
 /**
@@ -146,7 +148,7 @@ mostrarCarrito = () => {
     carritoList.forEach((num, id) => {
       contenido += `<div>
                     <h3>${productos[num].nombre}</h3>
-                    <p>${productos[num].precio}</p>
+                    <p>${formatPrice(productos[num].precio)}</p>
                     <button type = 'button' onclick = "eliminarProducto(${id})">Eliminar producto</button>
                   </div>`;
     });
@@ -192,7 +194,7 @@ let eliminarProducto = (id) => {
 }
 
 /**
- * 
+ * @method filtrarProductos 
  */
 
 filtrarProductos = () =>{
@@ -234,5 +236,30 @@ filtrarProductos = () =>{
   }
 
   mostrarCatalogo(newlist); 
+
+}
+
+/**
+ * formatea el precio 
+ * @param {number} price 
+ * @returns {number} con formato 
+ */
+
+let formatPrice = (price) => {
+
+  return new Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS"
+  }).format(price); 
+
+}
+
+contarProductos = () =>{
+  let carritoList = localStorage.getItem("carrito");
+  carritoList = JSON.parse(carritoList);
+
+  if(carritoList.length > 0){
+    document.getElementById("cant-prod").innerText = carritoList.length
+  }
 
 }
