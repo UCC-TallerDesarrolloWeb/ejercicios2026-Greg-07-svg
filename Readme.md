@@ -1,4 +1,5 @@
 # SUGERENCIAS ANTES DE EMPEZAR...
+
 - Emplea **Conventional Commits**
 - Comitea luego de cada ejercicio
 - Haz los ejercicios en clase (recuerda que presentarlos es obligatorio para rendir el final)
@@ -9,99 +10,105 @@
 # Checklist de Ejercicios OBLIGATORIOS por unidad
 
 ## Unidad 1: Introducción y Herramientas de Desarrollo
--  [X] Readme.md
--  [X] .gitignore
+
+- [x] Readme.md
+- [x] .gitignore
 
 ## Unidad 2: Fundamentos de HTML5 y CSS3
 
 ### HTML
--  [X] Primer HTML
--  [X] Secciones
--  [X] Títulos
--  [X] Listas
--  [X] Link
--  [X] Tablas I
--  [X] Tablas II
--  [X] Tablas III
--  [X] Tablas VI
--  [X] Comentarios
--  [X] Formulario
--  [X] Accesibilidad
--  [X] Multimedia
+
+- [x] Primer HTML
+- [x] Secciones
+- [x] Títulos
+- [x] Listas
+- [x] Link
+- [x] Tablas I
+- [x] Tablas II
+- [x] Tablas III
+- [x] Tablas VI
+- [x] Comentarios
+- [x] Formulario
+- [x] Accesibilidad
+- [x] Multimedia
 
 ### CSS
--  [X] Propiedades tipográficas
--  [X] Incrustado
--  [X] Estilo con Descendientes
--  [X] Pseudo Clases
--  [X] CV
--  [X] Backgrounds
--  [ ] Position
--  [X] 2 Columnas
--  [X] Grid
--  [X] grid-areas
--  [X] Mejora
--  [X] Transitions
--  [X] Viewport
--  [X] Responsive
+
+- [x] Propiedades tipográficas
+- [x] Incrustado
+- [x] Estilo con Descendientes
+- [x] Pseudo Clases
+- [x] CV
+- [x] Backgrounds
+- [ ] Position
+- [x] 2 Columnas
+- [x] Grid
+- [x] grid-areas
+- [x] Mejora
+- [x] Transitions
+- [x] Viewport
+- [x] Responsive
 
 ## Unidad 3: JavaScript y ES6+
 
--  [X] Hola Mundo!
--  [X] Conversor de Unidades
--  [X] Documentación
--  [X] Grados a Radianes
--  [X] Refactorización
--  [X] Mostrar/Ocultar div
--  [X] Mostrar/Ocultar Dialog
--  [X] Operaciones Matemáticas
--  [X] Conversor de Unidades II
--  [X] Operaciones Matemáticas II
--  [X] Renderizado Dinámico
--  [X] Renderizado Dinámico del Dialog
--  [X] Carrito de Compras con localstorage
--  [X] Vaciar Carrito y Eliminar Producto
--  [X] Filter
--  [X] Formatear Precio
--  [X] Total y Cantidad de Productos
--  [X] Ordenar el catálogo
+- [x] Hola Mundo!
+- [x] Conversor de Unidades
+- [x] Documentación
+- [x] Grados a Radianes
+- [x] Refactorización
+- [x] Mostrar/Ocultar div
+- [x] Mostrar/Ocultar Dialog
+- [x] Operaciones Matemáticas
+- [x] Conversor de Unidades II
+- [x] Operaciones Matemáticas II
+- [x] Renderizado Dinámico
+- [x] Renderizado Dinámico del Dialog
+- [x] Carrito de Compras con localstorage
+- [x] Vaciar Carrito y Eliminar Producto
+- [x] Filter
+- [x] Formatear Precio
+- [x] Total y Cantidad de Productos
+- [x] Ordenar el catálogo
 
 ## Unidad 4: Funcionamiento del Navegador y Herramientas de Desarrollo
--  [ ] Checkeo de accesiilidad: AXE
--  [ ] Checkeo de Lighthouse: accesibilidad, CEO, performance, buenas prácticas
+
+- [ ] Checkeo de accesiilidad: AXE
+- [ ] Checkeo de Lighthouse: accesibilidad, CEO, performance, buenas prácticas
 
 ## Unidad 5: Frameworks y Preprocesadores CSS
 
 ### BootStrap
--  [ ] Instagram
--  [ ] Componente para selección de vuelos
--  [ ] Timeline
--  [ ] Componente Perfil
--  [ ] Youtube
+
+- [x] Instagram
+- [x] Componente para selección de vuelos
+- [ ] Timeline
+- [x] Componente Perfil
+- [ ] Youtube
 
 ### SASS
--  [ ] Sass básico
--  [ ] Diseño de Interiores
+
+- [ ] Sass básico
+- [ ] Diseño de Interiores
 
 ## Unidad 6: Frameworks de JavaScript: React, Vue y Angular
--  [ ] Instalación de React Usando Vite
--  [ ] Login Básico
--  [ ] Redirección de Rutas
--  [ ] Outlet
--  [ ] Estructura del Proyecto
--  [ ] Imágenes
--  [ ] Children
 
+- [ ] Instalación de React Usando Vite
+- [ ] Login Básico
+- [ ] Redirección de Rutas
+- [ ] Outlet
+- [ ] Estructura del Proyecto
+- [ ] Imágenes
+- [ ] Children
 
 ## Unidad 7: Backend y APIs
--  [ ] Mock del Backend
--  [ ] Análisis de Pokeapi
--  [ ] APIs en React
--  [ ] APIs en React
--  [ ] Carrito
+
+- [ ] Mock del Backend
+- [ ] Análisis de Pokeapi
+- [ ] APIs en React
+- [ ] APIs en React
+- [ ] Carrito
 
 ## Unidad 8: Buenas prácticas en los desarrollos web
-
 
 # Unidad I: Introducción al Desarrollo Web y Herramientas
 
